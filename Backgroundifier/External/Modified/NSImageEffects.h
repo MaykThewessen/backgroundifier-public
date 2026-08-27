@@ -85,7 +85,7 @@
 + (NSBitmapImageRep*)imageRepByApplyingExtraLightEffectToImageRep:(NSBitmapImageRep*)inputImage;
 + (NSBitmapImageRep*)imageRepByApplyingDarkEffectToImageRep:(NSBitmapImageRep*)inputImage;
 + (NSBitmapImageRep*)imageRepByApplyingTintEffectWithColor:(NSColor *)tintColor toImageRep:(NSBitmapImageRep*)inputImage;
-+ (NSBitmapImageRep*)imageRepByApplyingBlurToImageRep:(NSBitmapImageRep*)inputImage withRadius:(CGFloat)blurRadius tintColor:(NSColor *)tintColor saturationDeltaFactor:(CGFloat)saturationDeltaFactor maskImage:(NSImage *)maskImage;
++ (NSBitmapImageRep*)imageRepByApplyingBlurToImageRep:(NSBitmapImageRep*)inputImage withRadius:(CGFloat)blurRadius tintColor:(NSColor *)tintColor saturationDeltaFactor:(CGFloat)saturationDeltaFactor maskImage:(NSImage *)maskImage NS_SWIFT_NAME(imageRep(byApplyingBlurTo:withRadius:tintColor:saturationDeltaFactor:maskImage:));
 
 @end
 

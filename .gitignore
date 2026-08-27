@@ -2,3 +2,5 @@
 xcuserdata/
 .gitprivate/
 .gitpublic/
+build/
+Art/
